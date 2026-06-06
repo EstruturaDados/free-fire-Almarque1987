@@ -249,4 +249,13 @@ int main() {
                 switch(opcao) {
                     case 1: inserirItemLista(); break;
                     case 2: removerItemLista(); break;
-                    case 3: listarItens
+                    case 3: listarItensLista(); break;
+                    case 4: buscarSequencialLista(); break;
+                }
+            } while(opcao != 0);
+        }
+    } while(estrutura != 0);
+
+    printf("Saindo...\n");
+    return 0;
+}
